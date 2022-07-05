@@ -25,6 +25,26 @@ type Book {
     title: String!
   }
 
+
+input BookInput {
+    authors: [String]
+    description: String!
+    bookId: String!
+    image: String
+    link: String
+    title: String!
+  }
+
+type Query {
+    me: User
+  }
+
+  type Auth {
+    token: ID!
+    user: User
+  }
+
+
 `;
 
 module.exports = typeDefs;
