@@ -1,5 +1,22 @@
 {
+  "name": "mern-book-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start":"start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abeshaw97/Mern-Book-Engine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "^2.15.0"
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
