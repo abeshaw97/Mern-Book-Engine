@@ -20,7 +20,7 @@
     "graphql": "^0.13.2",
     "if-env": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.4.3"
+    "mongoose": "^6.4.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
